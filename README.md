@@ -20,3 +20,7 @@ The `SupabaseConnector` will pick it up then automatically
 ## Use
 
 Drag and drop the component from the `Code` bar on your Framer project into the canvas (make sure that the View that contains the `SupabaseConnector` will run before any Supabase operations are invoked)
+
+## Notes
+
+The component also allows the saving of up to six database names to be used as global store variables (an ease of use feature mostly)
