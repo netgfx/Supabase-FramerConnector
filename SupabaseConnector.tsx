@@ -23,18 +23,12 @@ export default function SupabaseConnector(props) {
     // Learn more: https://www.framer.com/docs/guides/auto-sizing
     React.useEffect(() => {
         setStore({
-            db_name: databaseName1.concat(
-                ",",
-                databaseName2,
-                ",",
-                databaseName3,
-                ",",
-                databaseName4,
-                ",",
-                databaseName5,
-                ",",
-                databaseName6
-            ),
+            databaseName1: databaseName1,
+            databaseName2: databaseName2,
+            databaseName3: databaseName3,
+            databaseName4: databaseName4,
+            databaseName5: databaseName5,
+            databaseName6: databaseName6
         })
 
         if (store.supabase == null || store.supabase == undefined) {
